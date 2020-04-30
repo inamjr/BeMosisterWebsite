@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <title>W3.CSS Template</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name=”robots” content=”noindex,nofollow”>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+        <a href="#home" class="w3-bar-item w3-button"
+          ><img src="bemo-logo2.png" alt="logo"
+        /></a>
+        <!-- Float links to the right. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
+          <a href="http://localhost:5500/HomePage.html" class="w3-bar-item w3-button">Main</a>
+          <a href="http://localhost:5500/ContactUs.html" class="w3-bar-item w3-button">ContactUs</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header
+      class="w3-display-container w3-content w3-wide"
+      style="max-width: 1500px;"
+      id="home"
+    >
+      <img
+        class="w3-image"
+        src="contact-us.png"
+        alt="Architecture"
+        width="1500"
+        height="800"
+      />
+      <div class="w3-display-middle w3-margin-top w3-center">
+        <h1 class="w3-xxlarge w3-text-white">
+          
+          
+        </h1>
+      </div>
+    </header>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          resize: vertical;
+        }
+        
+        label {
+          padding: 12px 12px 12px 0;
+          display: inline-block;
+        }
+        
+        input[type=submit] {
+          background-color: #4CAF50;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          float: right;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+        input[type=reset] {
+          background-color: rgb(78, 76, 175);
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          float: right;
+        }
+        
+        input[type=reset]:hover {
+          background-color: #7445a0;
+        }
+        
+        .container {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+        
+        .col-25 {
+          float: left;
+          width: 25%;
+          margin-top: 6px;
+        }
+        
+        .col-75 {
+          float: left;
+          width: 75%;
+          margin-top: 6px;
+        }
+        
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+          .col-25, .col-75, input[type=submit] {
+            width: 100%;
+            margin-top: 0;
+          }
+        }
+        </style>
+     
+
+   <body>
+    
+      <div>
+        <form  method="post" enctype="multipart/form-dta">
+            <div><div class="message-text"><span style="font-size:17px; font-weight:bold; ">BeMo Academic Consulting Inc. </span><br><span><span style="font-size:13px; font-weight:bold; "><u>Toll Free</u></span><span style="font-size:13px; ">: </span><span style="font-size:14px; ">1-855-900-BeMo (2366)</span><span style="font-size:13px; "><br></span><span style="font-size:13px; font-weight:bold; "><a href="info@bemoacademicconsulting.com"><u>Email</u></a></span><span style="font-size:13px; ">: </span><span style="font-size:14px; ">info@bemoacademicconsulting.com</span></span></div>
+            <div class="container">
+                <form action="/action_page.php">
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="fname">Name: *</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="lname">EMAIL ADDRESS: *</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="lname" name="lastname" placeholder="Your email address..">
+                    </div>
+                  </div>
+                 
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="subject">HOW CAN WE HELP YOU? *</label>
+                    </div>
+                    <div class="col-75">
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <input type="reset" value="Reset"> <input type="submit" value="Submit">
+                  </div>
+                  
+                </form>
+              </div>
+               <div></div>
+               <div>.</div>
+           </div>
+       </form>
+        <div><p>  <a href="#">Note *:</a> If you are having difficulties with our contact us form above, send us an email to info@bemoacademicconsulting.com (copy & paste the email address)</p></div>
+      </div>
+      </body>
+      <!-- End page content -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-indigo w3-padding-16" >
+
+        <div id="footer">©2013-2016 BeMo Academic Consulting Inc. All rights reserved. <a href="http://www.cdainterview.com/disclaimer-privacy-policy.html" target="_blank"><span style="text-decoration:underline;">Disclaimer &amp; Privacy Policy</span></a> <a href="mailto:info@bemoacademicconsulting.com" id="rw_email_contact"><span style="text-decoration:underline;">Contact Us</span></a><div></div><a class="social" href="https://www.facebook.com/bemoacademicconsulting"><i class="fa fa-facebook-official" style="font-size:24px"></i></a><div>  </div><a class="social" href="https://twitter.com/BeMo_AC"><i class="fa fa-twitter-square" style="font-size:24px"></i></a></div></div>
+
+    </footer>
+  </body>
+</html>
